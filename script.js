@@ -6,7 +6,7 @@ const renderResult = (input, isPalindrome)=>{
     if (isPalindrome){
         result.innerHTML = `<strong>${input}</strong> is a palindrome`
     }else{
-        result.innerHTML = `<strong>${input}</strong> is not palindrome`
+        result.innerHTML = `<strong>${input}</strong> is not a palindrome`
     }
     result.classList.remove("hidden")
 }
